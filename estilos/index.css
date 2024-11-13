@@ -37,3 +37,42 @@ iframe#tela{
     width: 269px;
     height: 471px;
 }
+
+td img{
+    border-radius: 10px;
+    width: 45px;
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 255px;
+    height: 585px;
+    position: relative;
+    top: -396px;
+    left: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+td{
+    height: 55px;
+    width: 50px;
+}
+
+tr#voltar{
+    height: 100px;
+}
+
+div#voltar{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 180px;
+}
+
+td img:hover{
+    box-shadow: 0px 0px 15px white;
+    transition: 0.5s;
+}
